@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1675A98C24DBBC9D00DF328D /* MessagesUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1675A98B24DBBC9D00DF328D /* MessagesUI.swift */; };
 		16952E1224DA709500C9CD88 /* ChatUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16952E1124DA709500C9CD88 /* ChatUI.swift */; };
 		1695B8C524D8F89F00F0812B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1695B8C424D8F89F00F0812B /* AppDelegate.swift */; };
 		1695B8C724D8F89F00F0812B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1695B8C624D8F89F00F0812B /* SceneDelegate.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1675A98B24DBBC9D00DF328D /* MessagesUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesUI.swift; sourceTree = "<group>"; };
 		16952E1124DA709500C9CD88 /* ChatUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatUI.swift; sourceTree = "<group>"; };
 		1695B8C124D8F89F00F0812B /* Chat UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chat UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1695B8C424D8F89F00F0812B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				1695B8C624D8F89F00F0812B /* SceneDelegate.swift */,
 				1695B8C824D8F89F00F0812B /* ContentView.swift */,
 				16952E1124DA709500C9CD88 /* ChatUI.swift */,
+				1675A98B24DBBC9D00DF328D /* MessagesUI.swift */,
 				1695B8CA24D8F8A100F0812B /* Assets.xcassets */,
 				1695B8CF24D8F8A100F0812B /* LaunchScreen.storyboard */,
 				1695B8D224D8F8A100F0812B /* Info.plist */,
@@ -271,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1695B8C524D8F89F00F0812B /* AppDelegate.swift in Sources */,
+				1675A98C24DBBC9D00DF328D /* MessagesUI.swift in Sources */,
 				16952E1224DA709500C9CD88 /* ChatUI.swift in Sources */,
 				1695B8C724D8F89F00F0812B /* SceneDelegate.swift in Sources */,
 				1695B8C924D8F89F00F0812B /* ContentView.swift in Sources */,

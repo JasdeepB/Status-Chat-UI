@@ -18,7 +18,7 @@ struct ChatUI: View {
                     Image(systemName: "plus").resizable().frame(width: 30, height: 30)
                 }
                 Spacer().frame(width: 50)
-                Text("Messages").font(.system(size: 25))
+                Text("Messages").fontWeight(.bold).font(.system(size: 22))
                 Spacer().frame(width: 50)
                 Button(action: {
                 }) {
@@ -62,7 +62,7 @@ struct ChatRow: View {
             Circle().frame(width: 50, height: 50).foregroundColor(Color.orange)
             Spacer().frame(width: 22)
             VStack(alignment: .leading) {
-                Text("Name").fontWeight(.medium).font(.system(size: 17))
+                Text("Name").fontWeight(.semibold).font(.system(size: 17))
                 Text("Message").fontWeight(.light).font(.system(size: 15)).opacity(0.5)
             }
         }.padding()
