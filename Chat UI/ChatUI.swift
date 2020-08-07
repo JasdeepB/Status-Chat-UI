@@ -10,48 +10,51 @@ import SwiftUI
 
 struct ChatUI: View {
     var body: some View {
-        VStack {
-            HStack(spacing: 15) {
-                Spacer()
-                Button(action: {
-                }) {
-                    Image(systemName: "plus").resizable().frame(width: 30, height: 30)
+        NavigationView {
+            Form {
+                NavigationLink(destination: Text("Chats")) {
+                    ChatRow()
                 }
-                Spacer().frame(width: 50)
-                Text("Messages").fontWeight(.bold).font(.system(size: 22))
-                Spacer().frame(width: 50)
-                Button(action: {
-                }) {
-                    Image(systemName: "square.and.pencil").resizable().frame(width: 30, height: 30)
+                NavigationLink(destination: Text("Chats")) {
+                    ChatRow()
                 }
-                Spacer()
-                }.foregroundColor(Color.black)
-                .padding();
-            NavigationView {
-                Form {
-                    NavigationLink(destination: Text("Chats")) {
+                NavigationLink(destination: Text("Chats")) {
                     ChatRow()
+                }
+                NavigationLink(destination: Text("Chats")) {
+                    ChatRow()
+                }
+                NavigationLink(destination: Text("Chats")) {
+                    ChatRow()
+                }
+                
+                Group {
+                    NavigationLink(destination: Text("Chats")) {
+                        ChatRow()
                     }
                     NavigationLink(destination: Text("Chats")) {
-                    ChatRow()
+                        ChatRow()
                     }
                     NavigationLink(destination: Text("Chats")) {
-                    ChatRow()
+                        ChatRow()
                     }
                     NavigationLink(destination: Text("Chats")) {
-                    ChatRow()
+                        ChatRow()
                     }
                     NavigationLink(destination: Text("Chats")) {
-                    ChatRow()
+                        ChatRow()
                     }
                     NavigationLink(destination: Text("Chats")) {
-                    ChatRow()
-                    }
-                    NavigationLink(destination: Text("Chats")) {
-                    ChatRow()
+                        ChatRow()
                     }
                 }
+                
             }
+            .navigationBarTitle("Messages", displayMode: .large)
+            .navigationBarItems(trailing: Button(action: {}) {
+                    Image(systemName: "square.and.pencil")
+                        .font(.title)
+                })
         }
     }
 }
