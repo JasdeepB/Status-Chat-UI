@@ -24,9 +24,7 @@ struct MessagesUI: View {
                 Circle().frame(width: 40, height: 40).foregroundColor(Color.gray)
                 }.padding()
             
-            HStack {
-                Rectangle().frame(width: 400, height: 700).foregroundColor(Color.white)
-            }
+            Demo()
             
             HStack{
                
