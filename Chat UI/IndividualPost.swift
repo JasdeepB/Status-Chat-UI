@@ -33,7 +33,7 @@ struct IndividualPost: View {
                 Text("20 minutes ago").fontWeight(.light).font(.system(size: 12)).opacity(0.5)
             }
             VStack {
-                Text("Check out this stunning aerial of Mt. Rainer my buddy and I took this morning").fontWeight(.medium).font(.system(size: 15)).frame(width: 345,height: 50, alignment: .leading).padding()
+                Text("Check out this stunning aerial of Mt. Rainer my buddy and I took this morning").fontWeight(.medium).font(.system(size: 15)).frame(width: 345,height: 50, alignment: .leading).lineLimit(6).padding()
                 HStack {
                     Button(action: {}) {
                         Image(systemName: "heart").foregroundColor(Color.black)
