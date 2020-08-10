@@ -39,11 +39,12 @@ struct IndividualPost: View {
                         Image(systemName: "heart").foregroundColor(Color.black)
                     }
                     Text("2.4k").fontWeight(.medium).font(.system(size: 15))
+                    Spacer().frame(width: 20)
                     Button(action: {}) {
                         Image(systemName: "bubble.middle.bottom").foregroundColor(Color.black)
                     }
                     Text("219").fontWeight(.medium).font(.system(size: 15))
-                }.offset(x: -112)
+                }.offset(x: -108)
             }
             
             ZStack {
