@@ -18,6 +18,7 @@
 		1695B8D124D8F8A100F0812B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1695B8CF24D8F8A100F0812B /* LaunchScreen.storyboard */; };
 		1695B8DC24D8F8A100F0812B /* Chat_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1695B8DB24D8F8A100F0812B /* Chat_UITests.swift */; };
 		1695B8E724D8F8A100F0812B /* Chat_UIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1695B8E624D8F8A100F0812B /* Chat_UIUITests.swift */; };
+		16C9C03E24E10ADE007CF4D0 /* IndividualPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C9C03D24E10ADE007CF4D0 /* IndividualPost.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		1695B8E224D8F8A100F0812B /* Chat UIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chat UIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1695B8E624D8F8A100F0812B /* Chat_UIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat_UIUITests.swift; sourceTree = "<group>"; };
 		1695B8E824D8F8A100F0812B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16C9C03D24E10ADE007CF4D0 /* IndividualPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndividualPost.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				16952E1124DA709500C9CD88 /* ChatUI.swift */,
 				1675A98B24DBBC9D00DF328D /* MessagesUI.swift */,
 				168C647624DE53F400849B1E /* ChatBubble.swift */,
+				16C9C03D24E10ADE007CF4D0 /* IndividualPost.swift */,
 				1695B8CA24D8F8A100F0812B /* Assets.xcassets */,
 				1695B8CF24D8F8A100F0812B /* LaunchScreen.storyboard */,
 				1695B8D224D8F8A100F0812B /* Info.plist */,
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1695B8C524D8F89F00F0812B /* AppDelegate.swift in Sources */,
+				16C9C03E24E10ADE007CF4D0 /* IndividualPost.swift in Sources */,
 				168C647724DE53F400849B1E /* ChatBubble.swift in Sources */,
 				1675A98C24DBBC9D00DF328D /* MessagesUI.swift in Sources */,
 				16952E1224DA709500C9CD88 /* ChatUI.swift in Sources */,
