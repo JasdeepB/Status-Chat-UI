@@ -28,7 +28,6 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-
 struct Home : View {
     var body: some View {
         ZStack {
@@ -39,7 +38,6 @@ struct Home : View {
         }
     }
 }
-
 
 struct topView : View {
     var body: some View {

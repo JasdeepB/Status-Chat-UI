@@ -17,11 +17,9 @@ struct CommentChatBubble: View {
         HStack(alignment: .top) {
             Circle()
                 .foregroundColor(Color.gray)
-                    
                 .frame(width: 30, height: 30)
                 .padding(.horizontal, 5)
-                
-                
+            
             VStack(alignment: .leading, spacing: 7) {
                 CommentText(username: "Kelsey Brooks  ", comment: "Where are you? In a plane or helicopter?")
                     .lineLimit(nil)
@@ -38,6 +36,7 @@ struct CommentChatBubble: View {
                     Spacer()
                 }
             }
+            
             Button(action: {isLiked.toggle()}) {
                 Image(systemName: isLiked ? "heart.fill" : "heart")
                     .foregroundColor(Color.black)
@@ -46,7 +45,6 @@ struct CommentChatBubble: View {
         }
         .padding()
         .background(CommentChatBubble.CommentSectionBackgroundColor)
-        
     }
 }
 
@@ -58,7 +56,7 @@ struct CommentText: View {
         Text(username)
             .fontWeight(.regular)
             .font(.system(size: 15))
-         + Text(comment)
+            + Text(comment)
             .fontWeight(.medium)
             .font(.system(size: 14))
             .foregroundColor(Color.gray)

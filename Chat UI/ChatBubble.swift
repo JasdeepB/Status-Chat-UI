@@ -12,8 +12,8 @@ struct ChatBubble<Content>: View where Content: View {
     let direction: ChatBubbleShape.Direction
     let content: () -> Content
     init(direction: ChatBubbleShape.Direction, @ViewBuilder content: @escaping () -> Content) {
-            self.content = content
-            self.direction = direction
+        self.content = content
+        self.direction = direction
     }
     
     var body: some View {

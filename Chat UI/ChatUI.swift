@@ -52,9 +52,9 @@ struct ChatUI: View {
             }
             .navigationBarTitle("Messages", displayMode: .large)
             .navigationBarItems(trailing: Button(action: {}) {
-                    Image(systemName: "square.and.pencil")
-                        .font(.title)
-                })
+                Image(systemName: "square.and.pencil")
+                    .font(.title)
+            })
         }
     }
 }

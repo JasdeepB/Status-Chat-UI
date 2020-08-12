@@ -14,7 +14,7 @@ struct MessagesUI: View {
         VStack {
             HStack {
                 Button(action: {
-        
+                    
                 }) {
                     Image(systemName: "chevron.left").resizable().frame(width: 20, height: 35).foregroundColor(Color.black)
                 }
@@ -22,24 +22,24 @@ struct MessagesUI: View {
                 Text("Joanna Smith").fontWeight(.semibold).font(.system(size: 17)).frame(width: 300, height: 17,alignment: .trailing)
                 Spacer().frame(width: 25)
                 Circle().frame(width: 40, height: 40).foregroundColor(Color.gray)
-                }.padding()
+            }.padding()
             
             Demo()
             
             HStack{
-               
-               Button(action: {
-               }) {
-                Image(systemName: "plus").resizable().frame(width: 30, height: 30).foregroundColor(Color.black)
-               }
+                
+                Button(action: {
+                }) {
+                    Image(systemName: "plus").resizable().frame(width: 30, height: 30).foregroundColor(Color.black)
+                }
                 Spacer().frame(width: 15)
-               Button(action: {
-               }) {
-               Image(systemName: "camera").resizable().frame(width: 35, height: 30).foregroundColor(Color.black)
+                Button(action: {
+                }) {
+                    Image(systemName: "camera").resizable().frame(width: 35, height: 30).foregroundColor(Color.black)
                 }
                 Spacer().frame(width: 15)
                 TextField("Type Message", text: $message).textFieldStyle(RoundedBorderTextFieldStyle()).frame(width: 270)
-
+                
             }.frame(width: 400)
         }
     }
