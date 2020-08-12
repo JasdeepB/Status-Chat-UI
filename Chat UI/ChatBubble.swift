@@ -113,6 +113,7 @@ struct Demo: View {
     
     static let IncomingMessageColor = Color("IncomingMessage")
     static let OutgoingMessageColor = Color("OutgoingMessage")
+    static let BackgroundColor = Color("PostComments_bg")
     
     var body: some View {
         ScrollView {
@@ -136,7 +137,7 @@ struct Demo: View {
                                height: 200).aspectRatio(contentMode: .fill)
                 }
             }
-        }
+        }.background(Demo.BackgroundColor)
     }
 }
 

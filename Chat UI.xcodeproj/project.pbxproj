@@ -18,6 +18,9 @@
 		1695B8D124D8F8A100F0812B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1695B8CF24D8F8A100F0812B /* LaunchScreen.storyboard */; };
 		1695B8DC24D8F8A100F0812B /* Chat_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1695B8DB24D8F8A100F0812B /* Chat_UITests.swift */; };
 		1695B8E724D8F8A100F0812B /* Chat_UIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1695B8E624D8F8A100F0812B /* Chat_UIUITests.swift */; };
+		16A1D79B24E38704001548CC /* CommentChatBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A1D79A24E38704001548CC /* CommentChatBubble.swift */; };
+		16C7C48E24E3A34400DA2D6B /* CommentsUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C7C48D24E3A34400DA2D6B /* CommentsUI.swift */; };
+		16C7C49024E3B29D00DA2D6B /* MidSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C7C48F24E3B29D00DA2D6B /* MidSection.swift */; };
 		16C9C03E24E10ADE007CF4D0 /* IndividualPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C9C03D24E10ADE007CF4D0 /* IndividualPost.swift */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +59,9 @@
 		1695B8E224D8F8A100F0812B /* Chat UIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chat UIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1695B8E624D8F8A100F0812B /* Chat_UIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat_UIUITests.swift; sourceTree = "<group>"; };
 		1695B8E824D8F8A100F0812B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16A1D79A24E38704001548CC /* CommentChatBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentChatBubble.swift; sourceTree = "<group>"; };
+		16C7C48D24E3A34400DA2D6B /* CommentsUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsUI.swift; sourceTree = "<group>"; };
+		16C7C48F24E3B29D00DA2D6B /* MidSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidSection.swift; sourceTree = "<group>"; };
 		16C9C03D24E10ADE007CF4D0 /* IndividualPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndividualPost.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,6 +93,7 @@
 		1695B8B824D8F89F00F0812B = {
 			isa = PBXGroup;
 			children = (
+				16C7C48F24E3B29D00DA2D6B /* MidSection.swift */,
 				1695B8C324D8F89F00F0812B /* Chat UI */,
 				1695B8DA24D8F8A100F0812B /* Chat UITests */,
 				1695B8E524D8F8A100F0812B /* Chat UIUITests */,
@@ -113,6 +120,8 @@
 				16952E1124DA709500C9CD88 /* ChatUI.swift */,
 				1675A98B24DBBC9D00DF328D /* MessagesUI.swift */,
 				168C647624DE53F400849B1E /* ChatBubble.swift */,
+				16A1D79A24E38704001548CC /* CommentChatBubble.swift */,
+				16C7C48D24E3A34400DA2D6B /* CommentsUI.swift */,
 				16C9C03D24E10ADE007CF4D0 /* IndividualPost.swift */,
 				1695B8CA24D8F8A100F0812B /* Assets.xcassets */,
 				1695B8CF24D8F8A100F0812B /* LaunchScreen.storyboard */,
@@ -279,7 +288,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16C7C48E24E3A34400DA2D6B /* CommentsUI.swift in Sources */,
 				1695B8C524D8F89F00F0812B /* AppDelegate.swift in Sources */,
+				16C7C49024E3B29D00DA2D6B /* MidSection.swift in Sources */,
+				16A1D79B24E38704001548CC /* CommentChatBubble.swift in Sources */,
 				16C9C03E24E10ADE007CF4D0 /* IndividualPost.swift in Sources */,
 				168C647724DE53F400849B1E /* ChatBubble.swift in Sources */,
 				1675A98C24DBBC9D00DF328D /* MessagesUI.swift in Sources */,
@@ -454,6 +466,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Chat UI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Chat UI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +486,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Chat UI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Chat UI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
