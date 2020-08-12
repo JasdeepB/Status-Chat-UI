@@ -21,6 +21,7 @@
 		16A1D79B24E38704001548CC /* CommentChatBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A1D79A24E38704001548CC /* CommentChatBubble.swift */; };
 		16C7C48E24E3A34400DA2D6B /* CommentsUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C7C48D24E3A34400DA2D6B /* CommentsUI.swift */; };
 		16C7C49024E3B29D00DA2D6B /* MidSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C7C48F24E3B29D00DA2D6B /* MidSection.swift */; };
+		16C7C49224E3B9A000DA2D6B /* TopSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C7C49124E3B9A000DA2D6B /* TopSection.swift */; };
 		16C9C03E24E10ADE007CF4D0 /* IndividualPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C9C03D24E10ADE007CF4D0 /* IndividualPost.swift */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +63,7 @@
 		16A1D79A24E38704001548CC /* CommentChatBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentChatBubble.swift; sourceTree = "<group>"; };
 		16C7C48D24E3A34400DA2D6B /* CommentsUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsUI.swift; sourceTree = "<group>"; };
 		16C7C48F24E3B29D00DA2D6B /* MidSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidSection.swift; sourceTree = "<group>"; };
+		16C7C49124E3B9A000DA2D6B /* TopSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSection.swift; sourceTree = "<group>"; };
 		16C9C03D24E10ADE007CF4D0 /* IndividualPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndividualPost.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +95,7 @@
 		1695B8B824D8F89F00F0812B = {
 			isa = PBXGroup;
 			children = (
+				16C7C49124E3B9A000DA2D6B /* TopSection.swift */,
 				16C7C48F24E3B29D00DA2D6B /* MidSection.swift */,
 				1695B8C324D8F89F00F0812B /* Chat UI */,
 				1695B8DA24D8F8A100F0812B /* Chat UITests */,
@@ -298,6 +301,7 @@
 				16952E1224DA709500C9CD88 /* ChatUI.swift in Sources */,
 				1695B8C724D8F89F00F0812B /* SceneDelegate.swift in Sources */,
 				1695B8C924D8F89F00F0812B /* ContentView.swift in Sources */,
+				16C7C49224E3B9A000DA2D6B /* TopSection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
