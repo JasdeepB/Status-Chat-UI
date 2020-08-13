@@ -18,7 +18,7 @@ struct TopSection: View {
                     .frame(width: 30, height: 30)
                     .foregroundColor(Color.white)
             }
-            .position(x: 350, y: 40)
+            .position(x: 370, y: 45)
             HStack{
                 Button(action: {}) {
                     Image(systemName: "chevron.left")

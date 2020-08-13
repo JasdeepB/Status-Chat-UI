@@ -15,7 +15,6 @@ struct CommentsUI: View {
                 CommentChatBubble()
             }
         }
-        .padding()
     }
 }
 
